@@ -1,62 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img width="300px" src="logo/Group 33072.png" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
-                  </li>
-                </ul>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="w-50" src="Logo, icon/Group 33072.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 300px;">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="top">
+      <div class="row d-flex align-items-center p-5">
+        <div class=" col-md-7">
+          <h1 style="color: #dbab0e;">BE THE PENGUINS</h1>
+          <h1 style="color: #2e003a;">OF WINTER</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+          <button class="btn btn-success "><img style="width: 30px;" src="Logo, Icon/shopping-cart 1.png" alt=""> BUY
+            NOW</button>
+        </div>
+        <div class="col-md-5">
+          <img src="image/Group 33091.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <h3>WOMAN JACKET</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card panda-card h-100 shadow">
+            <div style="background-color:#d1c5c5ea;">
+              <img style="padding: 50px;" src="image/PngItem_2597366 1.png" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">LADIES JACKET</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class=" d-flex justify-content-around card-footer ">
+              <h4 style="color: coral;">$140</h4>
+              <button class="btn btn-success "><img style="width: 30px;" src="Logo, Icon/shopping-cart 1.png" alt="">
+                BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class=" d-flex justify-content-around card  h-100 shadow">
+            <div style="background-color:#d1c5c5ea;">
+              <img style="margin-bottom: 140px;" src="image/SeekPng 1.png" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">YELOOW CIAT JACKET</h5>
+
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class=" d-flex justify-content-around card-footer ">
+              <h4 style="color: coral;">$375</h4>
+              <button class="btn btn-success "><img style="width: 30px;" src="Logo, Icon/shopping-cart 1.png" alt="">
+                BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card panda-card h-100 ">
+            <div style="background-color:#d1c5c5ea;">
+              <img style="margin-bottom: 25px;" src="image/image 15.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">RED JACKET</h5>
+
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="d-flex justify-content-around card-footer ">
+              <h4 style="color: coral;">$400</h4>
+              <button class="btn btn-success "><img style="width: 30px;" src="Logo, Icon/shopping-cart 1.png" alt="">
+                BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <h3>MAN JACKET</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card panda-card h-100 shadow">
+            <div style="background-color:#d1c5c5ea;">
+              <img style="padding: 50px; margin-bottom: 190px;" src="image/image 11.png" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Snowboard JACKET Mens</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class=" d-flex justify-content-around card-footer panda-card-footer">
+              <h4 style="color: coral;">$140</h4>
+              <button class="btn btn-success "><img style="width: 30px;" src="Logo, Icon/shopping-cart 1.png" alt="">
+                BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class=" d-flex justify-content-around card panda-card h-100 shadow">
+            <div style="background-color:#d1c5c5ea;">
+              <img style="margin-bottom:300px;" src="image/vippng 1.png" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Man Leather Jacket</h5>
+
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class=" d-flex justify-content-around card-footer panda-card-footer">
+              <h4 style="color: coral;">$375</h4>
+              <button class="btn btn-success "><img style="width: 30px;" src="Logo, Icon/shopping-cart 1.png" alt="">
+                BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card panda-card h-100 ">
+            <div style="background-color:#d1c5c5ea;">
+              <img style="margin-bottom: 100px;" src="image/toppng 1.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Man Casual jacket</h5>
+
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="d-flex justify-content-around card-footer panda-card-footer">
+              <h4 style="color: coral;">$400</h4>
+              <button class="btn btn-success "><img style="width: 30px;" src="Logo, Icon/shopping-cart 1.png" alt="">
+                BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container mt-5">
+      <!-- <a href=""> neded</a> -->
+      <button class="btn-next">1</button>
+      <button class="btn-next">2</button>
+      <button class="btn-next">3</button>
+      <button class="btn-next">4</button>
+      <button class="btn-next">5</button>
+      <button class="btn-next">6</button>
+      <button class="btn-next">7</button>
+      <button class="btn-next">8</button>
+      <button class="btn-next">9</button>
+      <button class="btn-next">10</button>
+      <button class="btn-next">Next</button>
+
+    </div>
+    <section class="container mt-5 d-flex">
+      <div class="down-area col-md-7">
+        <div class="card mb-3" style="max-width: 540px;">
+
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img width="80%" src="Logo, Icon/image 12.png" alt="...">
+            </div>
+            <div class="col-md-7" style="margin-left: 30px;">
+              <div class="card-body">
+                <h5 class="card-title">Find the Perfect Fit</h5>
+                <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
               </div>
             </div>
-          </nav>
-    </header>
-
-    <main>
-        <div class="container">
-            <div class="carousel-item active">
-                <div class="row align-items-center">
-                    <div class="col-md-7">
-                        <h1>BE THE PENGUINS</h1>
-                        <h1>OF WINTER</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <h1 class="price">$1200</h1>
-                        <button class="buy-now-button">BUY NOW</button>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="images/girl.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-              </div>
+          </div>
         </div>
-    </main>
-    <!--Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img style="width: 80%;" src="Logo, Icon/image 13.png" alt="...">
+            </div>
+            <div class="col-md-7" style="margin-left: 40px">
+              <div class="card-body">
+                <h5 class="card-title">Free Exchanges</h5>
+                <p class="card-text">One of the many reasons you can shop with peace of mind</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img style="width: 80%;" src="Logo, Icon/image 14.png" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Contact Our Seller</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="down-area col-md-5">
+        <img style="width: 300-content;" class="col-7" src="Logo, Icon/XMLID 1.png" alt="">
+      </div>
+    </section>
+  </main>
+  <footer class="container mt-5">
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+        style="height: 100px"></textarea>
+      <label for="floatingTextarea2">Leave your comment here...</label>
+      <div class="btn btn-primary mt-2">SUBMIT</div>
+    </div>
+    <div class="container mt-5 d-flex align-items-center justify-content-center orange-bg" id="subscribe">
+      <div>
+        <h3>LET'S STAY IN TOUCH</h3>
+        <h6>Get updates on sales, specials and more</h6>
+        <input class="form-control" type="text">
+        <button class="btn-next mt-2">SUBMIT</button>
+      </div>
+    </div>
+    <div class="container mt-2">
+      <h6 style="color: grey;">©2021-22. Penguin Fashion || All rights reserved by Sayem</h6>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
